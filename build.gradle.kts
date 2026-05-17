@@ -14,9 +14,8 @@ version = "1.0.0"
 repositories {
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
-    maven("https://repo.jorel.dev/snapshots")
+    maven("https://repo.dmulloy2.net/repository/public/")
 }
-
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 }
@@ -27,6 +26,7 @@ dependencies {
     paperweight.paperDevBundle("1.21.1-R0.1-SNAPSHOT")
     compileOnly("net.luckperms:api:5.4")
     compileOnly("dev.jorel:commandapi-bukkit-core:11.2.0")
+    compileOnly("com.comphenix.protocol:ProtocolLib:5.3.0")
 
     // JDA (Discord Bot)
     implementation("net.dv8tion:JDA:5.0.2") {
