@@ -1,0 +1,7 @@
+name: Anarchie Plugin
+main: io.github.black_Kittys22.anarchie.Main
+version: 1.0
+api-version: 1.21
+authors:
+  - black_Kittys
+description: Anarchie Plugin for Minecraft 1.21.11
